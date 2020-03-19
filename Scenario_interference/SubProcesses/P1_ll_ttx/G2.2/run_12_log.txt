@@ -27,8 +27,8 @@
  mdl_cpb =    0.0000000000000000     
  mdl_cptb =    0.0000000000000000     
  mdl_cptbI =    0.0000000000000000     
- mdl_ctW =   0.50000000000000000     
- mdl_ctZ =   -5.0000000000000000     
+ mdl_ctW =    1.5000000000000000     
+ mdl_ctZ =   -4.0000000000000000     
  mdl_ctWI =    0.0000000000000000     
  mdl_ctZI =    0.0000000000000000     
  mdl_cbW =    0.0000000000000000     
@@ -494,7 +494,7 @@
  mdl_cw =   0.87538612427783857     
  mdl_sqrt__sw2 =   0.48342438232036300     
  mdl_sw =   0.48342438232036300     
- mdl_ctA =    10.088300879613628     
+ mdl_ctA =    10.346074132845153     
  mdl_g1 =   0.35807170271074895     
  mdl_gw =   0.64839716719502682     
  mdl_vev =    246.22056907348590     
@@ -521,9 +521,9 @@
        GC_575 =   0.00000E+00   0.28380E+00
        GC_580 =  -0.00000E+00  -0.28850E-01
        GC_581 =   0.00000E+00   0.86550E-01
-       GC_599 =   0.00000E+00  -0.87052E-03
+       GC_599 =   0.00000E+00  -0.69642E-03
        GC_600 =   0.00000E+00   0.00000E+00
-       GC_698 =   0.00000E+00   0.17564E-02
+       GC_698 =   0.00000E+00   0.18013E-02
        GC_699 =   0.00000E+00   0.00000E+00
        GC_815 =  -0.00000E+00  -0.00000E+00
        GC_825 =  -0.00000E+00  -0.00000E+00
@@ -599,63 +599,63 @@ s min # 3>     0.0     0.0
 xqcutij # 3>     0.0     0.0
  Excluding BW           -1           1
  alpha_s for scale    345.00000000000000       is    9.8620671378220892E-002
- Added good helicity            1   1.4893696261494125E-004  in event            1 local:           1
- Added good helicity            2   4.1639885249144769E-002  in event            1 local:           1
- Added good helicity            3   4.1639885249144193E-002  in event            1 local:           1
- Added good helicity            4   11.532592575491305       in event            1 local:           1
- Added good helicity           13   4.3528021568982176       in event            1 local:           1
- Added good helicity           14   1.5560637640881508E-002  in event            1 local:           1
- Added good helicity           15   1.5560637640881737E-002  in event            1 local:           1
- Added good helicity           16   5.5284867809360648E-005  in event            1 local:           1
+ Added good helicity            1   1.3830188213364276E-004  in event            1 local:           1
+ Added good helicity            2   3.8674424785299769E-002  in event            1 local:           1
+ Added good helicity            3   3.8674424785299200E-002  in event            1 local:           1
+ Added good helicity            4   10.714014191732364       in event            1 local:           1
+ Added good helicity           13   5.1713858322381547       in event            1 local:           1
+ Added good helicity           14   1.8523458315463200E-002  in event            1 local:           1
+ Added good helicity           15   1.8523458315463471E-002  in event            1 local:           1
+ Added good helicity           16   6.5907945825575688E-005  in event            1 local:           1
  RESET CUMULATIVE VARIABLE
  RESET CUMULATIVE VARIABLE
- Iteration  1   Mean: 0.3064E+00 Abs mean: 0.3064E+00   Fluctuation:  0.958E-01   0.305E+02   100.0%
-  1    0.3064E+00 0.3064E+00 +- 0.9581E-01      9.89
- Writing out events   6.1285975532972186E-005   9.8877506096286876     
+ Iteration  1   Mean: 0.1847E+00 Abs mean: 0.1847E+00   Fluctuation:  0.578E-01   0.184E+02   100.0%
+  1    0.1847E+00 0.1847E+00 +- 0.5775E-01      9.89
+ Writing out events   3.6941142002428741E-005   9.8878501287898022     
  Relative summed weights:
   0.1000E+01  0.0000E+00
  Relative number of events:
   0.1000E+01  0.0000E+00
  Events:
         1015           0
- Iteration  2   Mean: 0.3358E+00 Abs mean: 0.3358E+00   Fluctuation:  0.268E-01   0.164E+02   100.0%
-  2    0.3358E+00 0.3358E+00 +- 0.2679E-01      3.57
+ Iteration  2   Mean: 0.2024E+00 Abs mean: 0.2024E+00   Fluctuation:  0.162E-01   0.993E+01   100.0%
+  2    0.2024E+00 0.2024E+00 +- 0.1616E-01      3.57
  Relative summed weights:
   0.1000E+01  0.0000E+00
  Relative number of events:
   0.1000E+01  0.0000E+00
  Events:
         2000           0
- Iteration  3   Mean: 0.3200E+00 Abs mean: 0.3200E+00   Fluctuation:  0.635E-02   0.149E+01   100.0%
-  3    0.3200E+00 0.3200E+00 +- 0.6355E-02      1.26
+ Iteration  3   Mean: 0.1929E+00 Abs mean: 0.1929E+00   Fluctuation:  0.383E-02   0.900E+00   100.0%
+  3    0.1929E+00 0.1929E+00 +- 0.3830E-02      1.26
  Relative summed weights:
   0.1000E+01  0.0000E+00
  Relative number of events:
   0.1000E+01  0.0000E+00
  Events:
         4000           0
- Accuracy:    0.008   0.100   0.019   0.189
- Finished due to accuracy    8.3576915812883790E-003  0.10000000000000001     
+ Accuracy:    0.008   0.100   0.019   0.188
+ Finished due to accuracy    8.3389680436073838E-003  0.10000000000000001     
 
  -------------------------------------------------------------------------------
- Accumulated results:   Integral =  0.3209E+00
-                        Std dev  =  0.6172E-02
-                       Cross sec =  0.3209E+00
-             Chi**2 per DoF.     =      0.1888
+ Accumulated results:   Integral =  0.1934E+00
+                        Std dev  =  0.3720E-02
+                       Cross sec =  0.1934E+00
+             Chi**2 per DoF.     =      0.1881
  -------------------------------------------------------------------------------
- Found          374  events.
- Wrote          370  events.
- Actual xsec   0.32085823195387320     
- Correct abs xsec   0.32085823195387320     
- Event xsec   0.32085823195387131     
+ Found          376  events.
+ Wrote          372  events.
+ Actual xsec   0.19343250377260926     
+ Correct abs xsec   0.19343250377260926     
+ Event xsec   0.19343250377261015     
  Events wgts > 1:            0
  % Cross section > 1:    0.0000000000000000        0.0000000000000000     
 -------------------------------------------------
 ---------------------------
- Results Last   3 iters: Integral =   0.3209E+00
-                     Abs integral =   0.3209E+00
-                          Std dev =   0.6172E-02
-                  Chi**2 per DoF. =      0.1752
+ Results Last   3 iters: Integral =   0.1934E+00
+                     Abs integral =   0.1934E+00
+                          Std dev =   0.3720E-02
+                  Chi**2 per DoF. =      0.1745
 -------------------------------------------------
 ---------------------------
  Status  0.10000000000000001                4           5
@@ -670,7 +670,6 @@ multijob.dat
 results.dat
 run_01_log.txt
 run_02_log.txt
-run_03_log.txt
 run_08_log.txt
 run_09_log.txt
 run_10_log.txt

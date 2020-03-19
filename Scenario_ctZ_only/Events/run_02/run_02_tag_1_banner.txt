@@ -290,7 +290,7 @@ BLOCK DIM6 #
       8 0.000000e+00 # cptb
       9 0.000000e+00 # cptbi
       10 0.000000e+00 # ctw
-      11 -2.400000e+00 # ctz
+      11 -4.000000e-01 # ctz
       12 0.000000e+00 # ctwi
       13 0.000000e+00 # ctzi
       14 0.000000e+00 # cbw
@@ -783,7 +783,7 @@ DECAY 22 0.000000e+00 # a : 0.0
 </slha>
 <MGGenerationInfo>
 #  Number of Events        :       2000
-#  Integrated weight (pb)  :       1.5975
+#  Integrated weight (pb)  :       0.26189542
 </MGGenerationInfo>
 </header>
 </LesHouchesEvents>

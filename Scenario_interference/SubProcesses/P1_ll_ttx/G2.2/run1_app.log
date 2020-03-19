@@ -27,8 +27,8 @@
  mdl_cpb =    0.0000000000000000     
  mdl_cptb =    0.0000000000000000     
  mdl_cptbI =    0.0000000000000000     
- mdl_ctW =    4.5000000000000000     
- mdl_ctZ =    4.5000000000000000     
+ mdl_ctW =    3.5000000000000000     
+ mdl_ctZ =    3.5000000000000000     
  mdl_ctWI =    0.0000000000000000     
  mdl_ctZI =    0.0000000000000000     
  mdl_cbW =    0.0000000000000000     
@@ -494,7 +494,7 @@
  mdl_cw =   0.87538612427783857     
  mdl_sqrt__sw2 =   0.48342438232036300     
  mdl_sw =   0.48342438232036300     
- mdl_ctA =    1.1599796395418713     
+ mdl_ctA =   0.90220638631034422     
  mdl_g1 =   0.35807170271074895     
  mdl_gw =   0.64839716719502682     
  mdl_vev =    246.22056907348590     
@@ -521,9 +521,9 @@
        GC_575 =   0.00000E+00   0.28380E+00
        GC_580 =  -0.00000E+00  -0.28850E-01
        GC_581 =   0.00000E+00   0.86550E-01
-       GC_599 =   0.00000E+00   0.78347E-03
+       GC_599 =   0.00000E+00   0.60936E-03
        GC_600 =   0.00000E+00   0.00000E+00
-       GC_698 =   0.00000E+00   0.20196E-03
+       GC_698 =   0.00000E+00   0.15708E-03
        GC_699 =   0.00000E+00   0.00000E+00
        GC_815 =  -0.00000E+00  -0.00000E+00
        GC_825 =  -0.00000E+00  -0.00000E+00
@@ -580,8 +580,8 @@ Setting grid   1    0.99421E+00   1
  Masses: 0.000E+00 0.000E+00 0.172E+03 0.172E+03
  Got moffset           1
 Using random seed offsets     2 :      1
-  with seed                 3615
- Ranmar initialization seeds       16663       16292
+  with seed                 2319
+ Ranmar initialization seeds       31132       14943
  
  ********************************************
  * You are using the DiscreteSampler module *
@@ -599,63 +599,63 @@ s min # 3>     0.0     0.0
 xqcutij # 3>     0.0     0.0
  Excluding BW           -1           1
  alpha_s for scale    345.00000000000000       is    9.8620671378220892E-002
- Added good helicity            1   4.8756022988870683E-008  in event            1 local:           1
- Added good helicity            2   1.1100936351788263E-005  in event            1 local:           1
- Added good helicity            3   1.1100936351788540E-005  in event            1 local:           1
- Added good helicity            4   7.3577583296643436E-004  in event            1 local:           1
- Added good helicity           13   15.938712747857576       in event            1 local:           1
- Added good helicity           14   3.0236051315457219E-002  in event            1 local:           1
- Added good helicity           15   3.0236051315456279E-002  in event            1 local:           1
- Added good helicity           16   5.7123049817558277E-005  in event            1 local:           1
+ Added good helicity            1   9.8660642730524966E-008  in event            1 local:           1
+ Added good helicity            2   6.9117936421478834E-005  in event            1 local:           1
+ Added good helicity            3   6.9117936421477397E-005  in event            1 local:           1
+ Added good helicity            4   4.5152056077648745E-002  in event            1 local:           1
+ Added good helicity           13   15.867389544271440       in event            1 local:           1
+ Added good helicity           14   4.3600302407252038E-002  in event            1 local:           1
+ Added good helicity           15   4.3600302407253093E-002  in event            1 local:           1
+ Added good helicity           16   1.1946030291835681E-004  in event            1 local:           1
  RESET CUMULATIVE VARIABLE
  RESET CUMULATIVE VARIABLE
- Iteration  1   Mean: 0.6215E+00 Abs mean: 0.6215E+00   Fluctuation:  0.164E+00   0.450E+02   100.0%
-  1    0.6215E+00 0.6215E+00 +- 0.1642E+00      8.36
- Writing out events   1.2429369550547337E-004   8.3558600660262847     
+ Iteration  1   Mean: 0.4308E+00 Abs mean: 0.4308E+00   Fluctuation:  0.110E+00   0.294E+02   100.0%
+  1    0.4308E+00 0.4308E+00 +- 0.1100E+00      8.07
+ Writing out events   8.6167746121340306E-005   8.0718219340239266     
  Relative summed weights:
   0.1000E+01  0.0000E+00
  Relative number of events:
   0.1000E+01  0.0000E+00
  Events:
         1015           0
- Iteration  2   Mean: 0.4707E+00 Abs mean: 0.4707E+00   Fluctuation:  0.338E-01   0.263E+02   100.0%
-  2    0.4707E+00 0.4707E+00 +- 0.3378E-01      3.21
+ Iteration  2   Mean: 0.3005E+00 Abs mean: 0.3005E+00   Fluctuation:  0.216E-01   0.118E+02   100.0%
+  2    0.3005E+00 0.3005E+00 +- 0.2161E-01      3.22
  Relative summed weights:
   0.1000E+01  0.0000E+00
  Relative number of events:
   0.1000E+01  0.0000E+00
  Events:
         2000           0
- Iteration  3   Mean: 0.4712E+00 Abs mean: 0.4712E+00   Fluctuation:  0.893E-02   0.255E+01   100.0%
-  3    0.4712E+00 0.4712E+00 +- 0.8933E-02      1.20
+ Iteration  3   Mean: 0.3038E+00 Abs mean: 0.3038E+00   Fluctuation:  0.566E-02   0.162E+01   100.0%
+  3    0.3038E+00 0.3038E+00 +- 0.5661E-02      1.18
  Relative summed weights:
   0.1000E+01  0.0000E+00
  Relative number of events:
   0.1000E+01  0.0000E+00
  Events:
         4000           0
- Accuracy:    0.016   0.100   0.018   0.723
- Finished due to accuracy    1.5544143025946901E-002  0.10000000000000001     
+ Accuracy:    0.021   0.100   0.018   1.345
+ Finished due to accuracy    2.0869221327837879E-002  0.10000000000000001     
 
  -------------------------------------------------------------------------------
- Accumulated results:   Integral =  0.4719E+00
-                        Std dev  =  0.8628E-02
-                       Cross sec =  0.4719E+00
-             Chi**2 per DoF.     =      0.7228
+ Accumulated results:   Integral =  0.3043E+00
+                        Std dev  =  0.5475E-02
+                       Cross sec =  0.3043E+00
+             Chi**2 per DoF.     =      1.3453
  -------------------------------------------------------------------------------
- Found          402  events.
- Wrote          397  events.
- Actual xsec   0.47191417893144255     
- Correct abs xsec   0.47191417893144255     
- Event xsec   0.47191417893144127     
- Events wgts > 1:            0
- % Cross section > 1:    0.0000000000000000        0.0000000000000000     
+ Found          382  events.
+ Wrote          378  events.
+ Actual xsec   0.30426521636178477     
+ Correct abs xsec   0.30426521636178477     
+ Event xsec   0.30426521636178727     
+ Events wgts > 1:          378
+ % Cross section > 1:    8.1965684239904135E-017   2.6938894041191568E-014
 -------------------------------------------------
 ---------------------------
- Results Last   3 iters: Integral =   0.4719E+00
-                     Abs integral =   0.4719E+00
-                          Std dev =   0.8628E-02
-                  Chi**2 per DoF. =      0.4183
+ Results Last   3 iters: Integral =   0.3043E+00
+                     Abs integral =   0.3043E+00
+                          Std dev =   0.5475E-02
+                  Chi**2 per DoF. =      0.6800
 -------------------------------------------------
 ---------------------------
  Status  0.10000000000000001                4           5
@@ -670,15 +670,15 @@ multijob.dat
 results.dat
 run_01_log.txt
 run_02_log.txt
-run_03_log.txt
 run_08_log.txt
 run_09_log.txt
 run_100_log.txt
 run_101_log.txt
-run_102_log.txt
+run_103_log.txt
 run_104_log.txt
 run_105_log.txt
 run_106_log.txt
+run_107_log.txt
 run_108_log.txt
 run_109_log.txt
 run_10_log.txt
@@ -697,8 +697,11 @@ run_120_log.txt
 run_121_log.txt
 run_122_log.txt
 run_123_log.txt
+run_124_log.txt
 run_125_log.txt
 run_126_log.txt
+run_127_log.txt
+run_128_log.txt
 run_129_log.txt
 run_12_log.txt
 run_130_log.txt
@@ -707,7 +710,6 @@ run_132_log.txt
 run_133_log.txt
 run_134_log.txt
 run_135_log.txt
-run_136_log.txt
 run_137_log.txt
 run_138_log.txt
 run_139_log.txt
@@ -718,14 +720,14 @@ run_142_log.txt
 run_143_log.txt
 run_144_log.txt
 run_145_log.txt
+run_146_log.txt
 run_147_log.txt
+run_148_log.txt
 run_149_log.txt
 run_14_log.txt
 run_150_log.txt
 run_152_log.txt
-run_153_log.txt
 run_154_log.txt
-run_155_log.txt
 run_156_log.txt
 run_157_log.txt
 run_158_log.txt
@@ -733,15 +735,13 @@ run_159_log.txt
 run_15_log.txt
 run_160_log.txt
 run_161_log.txt
-run_162_log.txt
 run_163_log.txt
 run_164_log.txt
-run_165_log.txt
 run_166_log.txt
+run_168_log.txt
 run_169_log.txt
 run_16_log.txt
 run_170_log.txt
-run_171_log.txt
 run_172_log.txt
 run_173_log.txt
 run_174_log.txt
@@ -755,12 +755,11 @@ run_180_log.txt
 run_181_log.txt
 run_182_log.txt
 run_183_log.txt
-run_184_log.txt
 run_185_log.txt
 run_186_log.txt
 run_187_log.txt
-run_188_log.txt
 run_189_log.txt
+run_18_log.txt
 run_190_log.txt
 run_191_log.txt
 run_192_log.txt
@@ -773,39 +772,29 @@ run_198_log.txt
 run_199_log.txt
 run_19_log.txt
 run1_app.log
-run_200_log.txt
 run_201_log.txt
 run_202_log.txt
 run_203_log.txt
 run_204_log.txt
-run_205_log.txt
-run_206_log.txt
 run_207_log.txt
 run_208_log.txt
 run_209_log.txt
-run_20_log.txt
+run_210_log.txt
 run_212_log.txt
 run_213_log.txt
 run_214_log.txt
 run_215_log.txt
-run_216_log.txt
-run_217_log.txt
 run_218_log.txt
 run_219_log.txt
-run_21_log.txt
 run_220_log.txt
 run_221_log.txt
-run_222_log.txt
-run_223_log.txt
-run_224_log.txt
 run_225_log.txt
 run_226_log.txt
 run_227_log.txt
 run_228_log.txt
+run_229_log.txt
 run_22_log.txt
 run_230_log.txt
-run_232_log.txt
-run_233_log.txt
 run_234_log.txt
 run_235_log.txt
 run_236_log.txt
@@ -813,170 +802,54 @@ run_237_log.txt
 run_238_log.txt
 run_239_log.txt
 run_23_log.txt
-run_240_log.txt
 run_241_log.txt
 run_242_log.txt
 run_243_log.txt
 run_244_log.txt
 run_245_log.txt
 run_247_log.txt
-run_248_log.txt
 run_24_log.txt
-run_250_log.txt
 run_251_log.txt
 run_252_log.txt
+run_253_log.txt
 run_254_log.txt
 run_255_log.txt
-run_256_log.txt
-run_258_log.txt
-run_259_log.txt
-run_260_log.txt
-run_261_log.txt
-run_262_log.txt
-run_263_log.txt
-run_264_log.txt
-run_265_log.txt
-run_268_log.txt
-run_269_log.txt
-run_271_log.txt
-run_272_log.txt
-run_273_log.txt
-run_276_log.txt
-run_277_log.txt
-run_278_log.txt
+run_25_log.txt
+run_26_log.txt
 run_27_log.txt
-run_280_log.txt
-run_281_log.txt
-run_282_log.txt
-run_283_log.txt
-run_284_log.txt
-run_285_log.txt
-run_286_log.txt
-run_287_log.txt
-run_288_log.txt
-run_289_log.txt
 run_28_log.txt
-run_291_log.txt
-run_292_log.txt
-run_293_log.txt
-run_294_log.txt
-run_298_log.txt
-run_299_log.txt
 run_29_log.txt
-run_300_log.txt
-run_301_log.txt
-run_302_log.txt
-run_303_log.txt
-run_304_log.txt
-run_305_log.txt
-run_306_log.txt
-run_307_log.txt
-run_308_log.txt
-run_309_log.txt
 run_30_log.txt
-run_312_log.txt
-run_313_log.txt
-run_314_log.txt
-run_315_log.txt
-run_318_log.txt
-run_319_log.txt
 run_31_log.txt
-run_320_log.txt
-run_321_log.txt
-run_322_log.txt
-run_323_log.txt
-run_324_log.txt
-run_325_log.txt
-run_326_log.txt
-run_327_log.txt
-run_328_log.txt
-run_329_log.txt
 run_32_log.txt
-run_330_log.txt
-run_332_log.txt
-run_333_log.txt
-run_334_log.txt
-run_335_log.txt
-run_336_log.txt
-run_337_log.txt
-run_339_log.txt
 run_33_log.txt
-run_340_log.txt
-run_341_log.txt
-run_342_log.txt
-run_344_log.txt
-run_345_log.txt
-run_346_log.txt
-run_347_log.txt
-run_348_log.txt
-run_349_log.txt
 run_34_log.txt
-run_350_log.txt
-run_353_log.txt
-run_354_log.txt
-run_355_log.txt
-run_356_log.txt
-run_357_log.txt
-run_358_log.txt
 run_35_log.txt
-run_361_log.txt
-run_362_log.txt
-run_363_log.txt
-run_364_log.txt
-run_365_log.txt
-run_366_log.txt
-run_367_log.txt
-run_368_log.txt
-run_369_log.txt
-run_36_log.txt
-run_370_log.txt
-run_374_log.txt
-run_375_log.txt
-run_376_log.txt
-run_377_log.txt
-run_378_log.txt
-run_379_log.txt
-run_37_log.txt
-run_381_log.txt
-run_382_log.txt
-run_383_log.txt
-run_384_log.txt
-run_385_log.txt
-run_386_log.txt
-run_387_log.txt
-run_388_log.txt
-run_389_log.txt
-run_390_log.txt
-run_394_log.txt
-run_395_log.txt
-run_396_log.txt
-run_397_log.txt
-run_398_log.txt
-run_399_log.txt
 run_39_log.txt
 run_40_log.txt
 run_41_log.txt
 run_42_log.txt
 run_43_log.txt
 run_44_log.txt
+run_45_log.txt
+run_46_log.txt
+run_47_log.txt
 run_48_log.txt
-run_49_log.txt
 run_50_log.txt
 run_51_log.txt
 run_52_log.txt
-run_53_log.txt
 run_54_log.txt
 run_55_log.txt
-run_57_log.txt
 run_58_log.txt
 run_59_log.txt
 run_60_log.txt
+run_61_log.txt
 run_62_log.txt
 run_63_log.txt
 run_64_log.txt
 run_65_log.txt
+run_67_log.txt
 run_68_log.txt
-run_69_log.txt
 run_70_log.txt
 run_71_log.txt
 run_72_log.txt
@@ -988,10 +861,13 @@ run_77_log.txt
 run_78_log.txt
 run_79_log.txt
 run_80_log.txt
-run_83_log.txt
-run_84_log.txt
+run_81_log.txt
+run_82_log.txt
 run_85_log.txt
+run_86_log.txt
+run_87_log.txt
 run_88_log.txt
+run_89_log.txt
 run_90_log.txt
 run_91_log.txt
 run_92_log.txt
