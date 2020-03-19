@@ -8,7 +8,7 @@ from matplotlib import colors
 
 def main():
 
-    run, tag, cross, error, Nb_event = np.genfromtxt('0/MT=default/WT=default/cross_sections.txt', unpack = True)
+    run, tag, cross, error, Nb_event = np.genfromtxt('0/MT=173.1/WT=1.42/cross_sections.txt', unpack = True)
 
     desired_cms = np.arange(335,376,1)
    # desired_cms = desired_cms/2
@@ -24,9 +24,9 @@ def main():
     #c = params[2]
     #
     #t = np.linspace(-20,20,1000)
-    print(len(desired_cms))
-    print(len(cross))
-    print(desired_cms)
+    #print(len(desired_cms))
+    #print(len(cross))
+    #print(desired_cms)
     plt.plot(desired_cms, cross, 'o', color='deeppink')
 
     #plt.plot(desired_cms, cross2[1:], '-', color='green')
@@ -38,8 +38,8 @@ def main():
     plt.grid()
     plt.xlabel('$\sqrt{s}$/ GeV')
     plt.ylabel('$\sigma$ / pb')
-    plt.title('$e^+e^-$-> tt~'  '   '   'ctZ = 0' '   ' 'sm' )
-    plt.savefig('ctZ_0_CMS_cross_section.pdf')
+    plt.title('$e^+e^-$-> tt~'  '   '   'ctZ = 0' '   ' 'sm' ' ' '$m_t$ = 173.1 GeV' ' ' '$w_t$ = 1.42 GeV' )
+    plt.savefig('ctZ_0_CMS_cross_section_173.1_1.42.pdf')
     plt.show()
 if __name__ == "__main__":
    main()
