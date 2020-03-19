@@ -1,0 +1,46 @@
+Folder: 172.5/ctZ
+
+12.03.2020
+cross_sections_narrow_band.txt
+stepspace 0.1
+positivesteps 20
+negativesteps 10
+
+Fit Parameters: 
+value a: 0.13663182735571558 with error 0.00023093423586572045
+value b: -0.24294937148238102 with error 0.000299724880197678
+value c: 0.1487159453133555 with error 0.00023418865355086292
+
+
+a + bx +cx^2
+
+narrow_band_range describes steps
+plt.savefig('345_OtZ_cross_section_narrow_band_plus.pdf')
+
+
+
+##########################################################################
+##########################################################################
+##########################################################################
+
+12.03.2020
+cross_sections_full_band.txt
+stepspace 1
+positivesteps 20
+negativesteps 20 
+
+Fit Parameters:
+value a: 0.11715269637748704 with error 0.040193846643862094
+value b: -0.24597301366473845 with error 0.0022635418293529648
+value c: 0.148303852267906 with error 0.00021407587024452427
+
+
+
+
+Fifth_meeting_band information
+plt.savefig('345_OtZ_cross_section_full_band.pdf')
+
+
+##########################################################################
+##########################################################################
+##########################################################################

@@ -1,0 +1,293 @@
+import model dim6top_LO_UFO 
+generate e+ e- > t t~ FCNC=0 dim6<=1
+output/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -0.0
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -0.4811340769473723
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -0.9622681538947446
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -1.4434022308421168
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -1.9245363077894893
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -2.4056703847368617
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -2.8868044616842337
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -3.367938538631606
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -3.8490726155789785
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -4.3302066925263505
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -4.811340769473723
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -5.292474846421095
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -5.773608923368467
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -6.25474300031584
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -6.735877077263212
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -7.217011154210585
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -7.698145231157957
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -8.179279308105329
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -8.660413385052701
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -9.141547462000075
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ -9.622681538947447
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 0.4811340769473723
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 0.9622681538947446
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 1.4434022308421168
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 1.9245363077894893
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 2.4056703847368617
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 2.8868044616842337
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 3.367938538631606
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 3.8490726155789785
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 4.3302066925263505
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 4.811340769473723
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 5.292474846421095
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 5.773608923368467
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 6.25474300031584
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 6.735877077263212
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 7.217011154210585
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 7.698145231157957
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 8.179279308105329
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 8.660413385052701
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 9.141547462000075
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ
+
+set nevents 2000
+set ebeam1 172.5
+set ebeam2 172.5
+set ctZ 9.622681538947447
+0
+launch/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ -i 
+print_results --path=/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/OtB/172.5/ctZ/cross_sections.txt --format=short
+exit

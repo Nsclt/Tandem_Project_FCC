@@ -1,0 +1,436 @@
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+Energy per beam 182.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+Energy per beam 187.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctW
+Energy per beam 187.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctW
+Energy per beam 182.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctW
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZI
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZI
+Energy per beam 187.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZI
+Beam energy 187.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZI
+Beam energy 187.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZI
+Beam energy 187.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZI
+Beam energy 187.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_testing
+coefficient ctZ
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_testing
+coefficient ctZ
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_testing
+coefficient ctZ
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_testing
+coefficient ctZ
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_testing
+coefficient ctZ
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_testing
+coefficient ctZ
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_testing
+coefficient ctZ
+Energy per beam 187.5
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_testing
+coefficient ctZ
+Energy per beam 182.5
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_testing
+coefficient ctZ
+Energy per beam 175
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_otB
+coefficient ctZ
+Energy per beam 182.5
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_otB
+coefficient ctZ
+Energy per beam 187.5
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_otB
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values -20
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values -20
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values -20
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values -20
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values -20
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values -20
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values -20
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values -20
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values -20
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values -20
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values -20
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values -20
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+Beam energy 175
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+Beam energy 172.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctW
+Beam energy 172.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+Energy per beam 172
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_otB
+coefficient ctZ
+Energy per beam 172.5
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values script_otB
+coefficient ctZ
+Beam energy 172.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+Beam energy 172.5
+distance between steps 0.1
+number of steps fr positive values 2
+number of steps fr negative values 1
+coefficient ctZ
+Beam energy 172.5
+distance between steps 0.1
+number of steps fr positive values 2
+number of steps fr negative values 1
+coefficient ctZ
+Beam energy 172.5
+distance between steps 0.1
+number of steps fr positive values 2
+number of steps fr negative values 1
+coefficient ctZ
+Beam energy 172.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+Beam energy 172.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctZ
+Beam energy 172.5
+distance between steps 0.1
+number of steps fr positive values 20
+number of steps fr negative values 10
+coefficient ctZ
+Beam energy 172.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctW
+Beam energy 172.5
+distance between steps 1
+number of steps fr positive values 20
+number of steps fr negative values 20
+coefficient ctW
+Beam energy 172.5
+distance between steps 0.1
+number of steps fr positive values 10
+number of steps fr negative values 20
+coefficient ctZ
+Energy per beam 172.5
+distance between steps 1
+number of steps fr positive values 41
+number of steps fr negative values OtB_full_band_script
+coefficient ctZ
+Energy per beam 172.5
+distance between steps 0.1
+number of steps fr positive values 51
+number of steps fr negative values OtB_narrow_band_script
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 172.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 172.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 172.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 172.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 172.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 172.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 172.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 172.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 172.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172.5

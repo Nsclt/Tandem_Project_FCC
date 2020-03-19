@@ -1,0 +1,45 @@
+OtB/172.5/ctZ
+
+12.03.2020
+
+stepspace 1
+172,5 GeV
+41 steps
+
+OtB_full_band_script
+
+Fit Parameters:
+value a: 0.13623468097117397 with error 0.006726754164788889
+value b: 0.11594535893430913 with error 0.0003788214559321016
+value c: 0.03428049448014159 with error 3.5827264465202004e-05
+
+
+plt.savefig('345_OtB_cross_section_full_band.pdf')
+
+
+
+##########################################################################
+##########################################################################
+##########################################################################
+
+
+12.03.2020 
+stepspace 0.1
+51 total steps
+172.5 GeV 
+
+OtB_narrow_band_script
+
+Fit Parameters: 
+value a: 0.13670719529576594 with error 0.0001382509053088367
+value b: 0.11665907081661517 with error 0.00016370428750928114
+value c: 0.03430866397064149 with error 4.9972745571769154e-05
+
+
+plt.savefig('345_OtB_cross_section_narrow_band.pdf')
+
+
+
+
+
+
