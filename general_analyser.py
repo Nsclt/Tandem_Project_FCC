@@ -8,9 +8,9 @@ import itertools
 
 def main():
 
-    run_W, tag_W, cross_W, error_W, Nb_event_W = np.genfromtxt('Scenario_ctW_only/cross_sections.txt', unpack=True)
+    run_W, tag_W, cross_W, error_W, Nb_event_W = np.genfromtxt('Scenario_ctW_only/250/cross_sections.txt', unpack=True)
 
-    run_Z, tag_Z, cross_Z, error_Z, Nb_event_Z = np.genfromtxt('Scenario_ctZ_only/cross_sections.txt', unpack=True)
+    run_Z, tag_Z, cross_Z, error_Z, Nb_event_Z = np.genfromtxt('Scenario_ctZ_only/250/cross_sections.txt', unpack=True)
 
 
     coefficient_strength_Z = np.arange(-0.5,2.5,0.1)
@@ -35,6 +35,12 @@ def main():
     print('With v_sm_Z = ', v_sm_Z ,'\pm', v_sm_Z_error )
     print('With v_ctZ = ', v_ctZ ,'\pm', v_ctZ_error )
     print('With v_ctZ_quad = ', v_ctZ_quad ,'\pm', v_ctZ_quad_error)
+
+
+
+    acc_345 = 0.014
+
+
 
     #######################################################################################
 
@@ -70,6 +76,15 @@ def main():
     print('')
     print('')
     ######################################################################################
+
+
+
+
+
+
+
+
+
 
     x = np.arange(-4.0,4.0,0.5)
     y = np.arange(-4.0,4.0,0.5)
@@ -153,45 +168,54 @@ def main():
     print('250 v_ctZ_ctZ :', params_250[5], '\pm', errors_250[5] )
     ################################################################################
 
+
+    
+    #PLOTTING FOR CTW ONLY
+    
+    #print('RUN ', run_W[25], 'with Cross section:',  cross_W[25])
+    #
     #t = np.linspace(-3,0.7,1000)
     #plt.plot(coefficient_strength_W, cross_W, 'o', color='deeppink')
     #plt.errorbar(coefficient_strength_W,cross_W, yerr=error_W ,xerr=None, fmt='o', color='deeppink')
     #plt.plot(t, two_dimensional_parabole_ctW(t, v_sm_W, v_ctW, v_ctW_quad))
-    #plt.hlines(0.1351634 , -10,10, 'crimson', linestyle='solid', label='SM Value')
-    #plt.hlines(0.1211634 , -10,10, 'pink', linestyle='solid', label='lower limit on SM')
-    #plt.hlines(0.1491634 , -10,10, 'pink', linestyle='solid', label='lower limit on SM')
-    #plt.fill_between(t, 0.1211634,0.1491634 ,facecolor='pink')
+    #plt.hlines(cross_W[25] , -10,10, 'crimson', linestyle='solid', label='SM Value')
+    #plt.hlines(cross_W[25] + acc_345, -10,10, 'pink', linestyle='solid', label='Accuracy')
+    #plt.hlines(cross_W[25] - acc_345 , -10,10, 'pink', linestyle='solid')
+    #plt.fill_between(t, cross_W[25] - acc_345,cross_W[25] + acc_345 ,facecolor='pink')
     #plt.grid()
     #plt.xlim(-2.3,0.5)
-    #plt.ylim(0,0.4)
+    #plt.ylim(0,4.1)
     #plt.xlabel('ctW')
     #plt.ylabel('$\sigma$ / pb')
     #plt.legend(loc='best')
-    #plt.title('$e^+e^-$-> tt~'  '   '   '$\sqrt{s} = 345$GeV' '   ' 'dim6top_LO_UFO' )
-    #plt.savefig('345_ctW_cross_section.pdf')
+    #plt.title('$e^+e^-$-> tt~'  '   '   '$\sqrt{s} = 500$GeV' '   ' 'dim6top_LO_UFO' )
+    #plt.savefig('500_ctW_cross_section.pdf')
     #plt.show()
 
 
     ################################################################################
 
 
-    #t = np.linspace(-1,3,1000)
-    #plt.plot(coefficient_strength_Z, cross_Z, 'o', color='deeppink')
-    #plt.errorbar(coefficient_strength_Z,cross_Z, yerr=error_Z ,xerr=None, fmt='o', color='deeppink')
-    #plt.plot(t, two_dimensional_parabole_ctZ(t, v_sm_Z, v_ctZ, v_ctZ_quad))
-    #plt.hlines(0.1368778 , -10,10, 'crimson', linestyle='solid', label='SM Value')
-    #plt.hlines(0.1228778 , -10,10, 'pink', linestyle='solid', label='lower limit on SM')
-    #plt.hlines(0.1508778 , -10,10, 'pink', linestyle='solid', label='lower limit on SM')
-    #plt.fill_between(t, 0.1228778,0.1508778 ,facecolor='pink')
-    #plt.grid()
-    #plt.xlabel('ctZ')
-    #plt.xlim(-0.6,2.5)
-    #plt.ylim(0,0.5)
-    #plt.ylabel('$\sigma$ / pb')
-    #plt.legend(loc='best')
-    #plt.title('$e^+e^-$-> tt~'  '   '   '$\sqrt{s} = 345$GeV' '   ' 'dim6top_LO_UFO' )
-    #plt.savefig('345_ctZ_cross_section.pdf')
-    #plt.show()
+    #PLOTTING FOR CtZ ONLY
+    print('RUN ', run_Z[5], 'with Cross section:',  cross_Z[5])
+
+    t = np.linspace(-1,3,1000)
+    plt.plot(coefficient_strength_Z, cross_Z, 'o', color='deeppink')
+    plt.errorbar(coefficient_strength_Z,cross_Z, yerr=error_Z ,xerr=None, fmt='o', color='deeppink')
+    plt.plot(t, two_dimensional_parabole_ctZ(t, v_sm_Z, v_ctZ, v_ctZ_quad))
+    plt.hlines(cross_Z[5] , -10,10, 'crimson', linestyle='solid', label='SM Value')
+    plt.hlines(cross_Z[5] - acc_345 , -10,10, 'pink', linestyle='solid', label='Accuracy')
+    plt.hlines(cross_Z[5] + acc_345 , -10,10, 'pink', linestyle='solid')
+    plt.fill_between(t,cross_Z[5] - acc_345, cross_Z[5] + acc_345 ,facecolor='pink')
+    plt.grid()
+    plt.xlabel('ctZ')
+    plt.xlim(-0.6,1.75)
+    plt.ylim(0,2)
+    plt.ylabel('$\sigma$ / pb')
+    plt.legend(loc='best')
+    plt.title('$e^+e^-$-> tt~'  '   '   '$\sqrt{s} = 500$GeV' '   ' 'dim6top_LO_UFO' )
+    plt.savefig('500_ctZ_cross_section.pdf')
+    plt.show()
 
 if __name__ == "__main__":
    main()

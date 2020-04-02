@@ -1,0 +1,93 @@
+#CtW for 345 GeV
+
+This is CtW strength regarded:
+The function given is:  v_sm_W + v_ctW * ctW + v_ctW_quad * ctW**2
+
+With v_sm_W =  0.1368353544473742 \pm 0.00036303228541404884
+With v_ctW =  0.307405447242505 \pm 0.0007322104746425078
+With v_ctW_quad =  0.1801511199743669 \pm 0.00032721460999416286
+
+
+
+
+
+
+#ctW for 355 GeV
+
+This is CtW strength regarded:
+The function given is:  v_sm_W + v_ctW * ctW + v_ctW_quad * ctW**2
+
+With v_sm_W =  0.4138317608267509 \pm 0.0013150184031721465
+With v_ctW =  0.9409788074400374 \pm 0.0026522992217511685
+With v_ctW_quad =  0.5636051870299966 \pm 0.0011852753856457928
+
+
+
+
+#ctW for 365 GeV
+
+This is CtW strength regarded:
+The function given is:  v_sm_W + v_ctW * ctW + v_ctW_quad * ctW**2
+
+With v_sm_W =  0.5275440809465267 \pm 0.001818144211677846
+With v_ctW =  1.2084390583090838 \pm 0.0036670684693458446
+With v_ctW_quad =  0.7374158291330392 \pm 0.0016387615480603363
+
+
+
+#ctW for 500 GeV
+
+
+This is CtW strength regarded:
+The function given is:  v_sm_W + v_ctW * ctW + v_ctW_quad * ctW**2
+
+With v_sm_W =  0.5690615134063369 \pm 0.00248770588979317
+With v_ctW =  1.3963053807006127 \pm 0.005017526975883071
+With v_ctW_quad =  1.1198523688695987 \pm 0.002242262559389134
+
+
+
+
+
+
+#ctZ for 345 GeV
+This is CtZ strength regarded:
+The function given is:  v_sm_Z + v_ctZ * ctZ + v_ctZ_quad * ctZ**2
+
+With v_sm_Z =  0.13723189652222723 \pm 0.00024933004085966827
+With v_ctZ =  -0.24393176597733843 \pm 0.0005088554695580913
+With v_ctZ_quad =  0.14887561846042163 \pm 0.0002480795613535644
+
+
+
+
+
+#ctZ for 355 GeV
+This is CtZ strength regarded:
+The function given is:  v_sm_Z + v_ctZ * ctZ + v_ctZ_quad * ctZ**2
+
+With v_sm_Z =  0.41702544579988415 \pm 0.0009078126013681622
+With v_ctZ =  -0.7484653182789702 \pm 0.0018527466921082914
+With v_ctZ_quad =  0.46513488995306385 \pm 0.0009032596028938662
+
+
+
+
+#ctZ for 365 GeV
+This is CtZ strength regarded:
+The function given is:  v_sm_Z + v_ctZ * ctZ + v_ctZ_quad * ctZ**2
+
+With v_sm_Z =  0.528820369294148 \pm 0.0015308953546173934
+With v_ctZ =  -0.9573650545423233 \pm 0.003124390766610236
+With v_ctZ_quad =  0.6064519853810653 \pm 0.0015232173777319483
+
+
+
+
+#ctZ for 500 GeV
+This is CtZ strength regarded:
+The function given is:  v_sm_Z + v_ctZ * ctZ + v_ctZ_quad * ctZ**2
+
+With v_sm_Z =  0.5717006963323142 \pm 0.0016261727720113992
+With v_ctZ =  -1.1071219061891067 \pm 0.003318841663513873
+With v_ctZ_quad =  0.9115472136594112 \pm 0.0016180169701490955
