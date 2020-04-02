@@ -30,7 +30,6 @@ def main():
 
     print('')
     print('This is CtZ strength regarded:')
-    print('')
     print('The function given is:  v_sm_Z + v_ctZ * ctZ + v_ctZ_quad * ctZ**2')
     print('')
     print('With v_sm_Z = ', v_sm_Z ,'\pm', v_sm_Z_error )
@@ -60,7 +59,6 @@ def main():
     print('')
     print('')
     print('This is CtW strength regarded:')
-    print('')
     print('The function given is:  v_sm_W + v_ctW * ctW + v_ctW_quad * ctW**2')
     print('')
     print('With v_sm_W = ', v_sm_W ,'\pm', v_sm_W_error )
@@ -91,7 +89,10 @@ def main():
     ctZ_array_mix = np.asarray(ctZ_array_mix)
 
 
-    run_mix, tag_mix, cross_mix, error_mix, Nb_event_mix = np.genfromtxt('Scenario_interference/cross_sections.txt', unpack = True)
+    run_172, tag_172, cross_172, error_172, Nb_event_172 = np.genfromtxt('Scenario_interference/172.5/cross_sections.txt', unpack = True)
+    run_177, tag_177, cross_177, error_177, Nb_event_177 = np.genfromtxt('Scenario_interference/177.5/cross_sections.txt', unpack = True)
+    run_182, tag_182, cross_182, error_182, Nb_event_182 = np.genfromtxt('Scenario_interference/182.5/cross_sections.txt', unpack = True)
+    run_250, tag_250, cross_250, error_250, Nb_event_250 = np.genfromtxt('Scenario_interference/250/cross_sections.txt', unpack = True)
 
 
     C = np.c_[ctW_array_mix, ctZ_array_mix]
@@ -105,19 +106,51 @@ def main():
         return v_sm_sm + v_sm_ctZ * ctZ + v_ctW_sm * ctW + v_ctW_ctZ * ctW * ctZ + v_ctW_ctW * ctW * ctW + v_ctZ_ctZ * ctZ * ctZ 
     
 
-    params_mix, cov_mix = curve_fit(three_dimensional_ctZ_ctW, C, cross_mix)
-    errors_mix = np.sqrt(np.diag(cov_mix))
-
-    print('v_sm_sm :', params_mix[0], '\pm', errors_mix[0] )
-    print('v_sm_ctZ :', params_mix[1], '\pm', errors_mix[1] )
-    print('v_ctW_sm :', params_mix[2], '\pm', errors_mix[2] )
-    print('v_ctW_ctZ :', params_mix[3], '\pm', errors_mix[3] )
-    print('v_ctW_ctW :', params_mix[4], '\pm', errors_mix[4] )
-    print('v_ctZ_ctZ :', params_mix[5], '\pm', errors_mix[5] )
-
-
-        
-
+    params_172, cov_172 = curve_fit(three_dimensional_ctZ_ctW, C, cross_172)
+    errors_172 = np.sqrt(np.diag(cov_172))
+    print('HERE ITS INTERFERENCE FOR 172.5 GEV')
+    print('172.5 v_sm_sm :', params_172[0], '\pm', errors_172[0] )
+    print('172.5 v_sm_ctZ :', params_172[1], '\pm', errors_172[1] )
+    print('172.5 v_ctW_sm :', params_172[2], '\pm', errors_172[2] )
+    print('172.5 v_ctW_ctZ :', params_172[3], '\pm', errors_172[3] )
+    print('172.5 v_ctW_ctW :', params_172[4], '\pm', errors_172[4] )
+    print('172.5 v_ctZ_ctZ :', params_172[5], '\pm', errors_172[5] )
+    print('')
+    print('')
+    print('')
+    params_177, cov_177 = curve_fit(three_dimensional_ctZ_ctW, C, cross_177)
+    errors_177 = np.sqrt(np.diag(cov_177))
+    print('HERE ITS INTERFERENCE FOR 177.5 GEV')
+    print('177.5 v_sm_sm :', params_177[0], '\pm', errors_177[0] )
+    print('177.5 v_sm_ctZ :', params_177[1], '\pm', errors_177[1] )
+    print('177.5 v_ctW_sm :', params_177[2], '\pm', errors_177[2] )
+    print('177.5 v_ctW_ctZ :', params_177[3], '\pm', errors_177[3] )
+    print('177.5 v_ctW_ctW :', params_177[4], '\pm', errors_177[4] )
+    print('177.5 v_ctZ_ctZ :', params_177[5], '\pm', errors_177[5] )
+    print('')
+    print('')
+    print('')
+    params_182, cov_182 = curve_fit(three_dimensional_ctZ_ctW, C, cross_182)
+    errors_182 = np.sqrt(np.diag(cov_182))
+    print('HERE ITS INTERFERENCE FOR 182.5 GEV')
+    print('182.5 v_sm_sm :', params_182[0], '\pm', errors_182[0] )
+    print('182.5 v_sm_ctZ :', params_182[1], '\pm', errors_182[1] )
+    print('182.5 v_ctW_sm :', params_182[2], '\pm', errors_182[2] )
+    print('182.5 v_ctW_ctZ :', params_182[3], '\pm', errors_182[3] )
+    print('182.5 v_ctW_ctW :', params_182[4], '\pm', errors_182[4] )
+    print('182.5 v_ctZ_ctZ :', params_182[5], '\pm', errors_182[5] )
+    print('')
+    print('')
+    print('')   
+    params_250, cov_250 = curve_fit(three_dimensional_ctZ_ctW, C, cross_250)
+    errors_250 = np.sqrt(np.diag(cov_250))
+    print('HERE ITS INTERFERENCE FOR 250 GEV')
+    print('250 v_sm_sm :', params_250[0], '\pm', errors_250[0] )
+    print('250 v_sm_ctZ :', params_250[1], '\pm', errors_250[1] )
+    print('250 v_ctW_sm :', params_250[2], '\pm', errors_250[2] )
+    print('250 v_ctW_ctZ :', params_250[3], '\pm', errors_250[3] )
+    print('250 v_ctW_ctW :', params_250[4], '\pm', errors_250[4] )
+    print('250 v_ctZ_ctZ :', params_250[5], '\pm', errors_250[5] )
     ################################################################################
 
     #t = np.linspace(-3,0.7,1000)
