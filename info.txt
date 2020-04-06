@@ -509,3 +509,75 @@ Center of mass energy 177.5
 coefficient 1 ctW
 coefficient 2 ctZ
 Center of mass energy 250
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 170
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 174.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 174.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 170
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 170
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 170
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 170
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 171.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 170
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 174.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 172
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 173
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 173
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 173.5
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 174
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 174
+coefficient 1 ctW
+coefficient 2 ctZ
+Center of mass energy 174
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 174
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 173.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 173
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 173
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 173.5
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 174
