@@ -447,11 +447,7 @@ ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
       WRITE(*,*) 'mdl_cblSIx3x31 = ', MDL_CBLSIX3X31
       WRITE(*,*) 'mdl_cblSIx3x32 = ', MDL_CBLSIX3X32
       WRITE(*,*) 'aEWM1 = ', AEWM1
-      WRITE(*,*) 'mdl_Gf = ', MDL_GF
       WRITE(*,*) 'aS = ', AS
-      WRITE(*,*) 'mdl_ymb = ', MDL_YMB
-      WRITE(*,*) 'mdl_ymt = ', MDL_YMT
-      WRITE(*,*) 'mdl_ymtau = ', MDL_YMTAU
       WRITE(*,*) 'mdl_MZ = ', MDL_MZ
       WRITE(*,*) 'mdl_MTA = ', MDL_MTA
       WRITE(*,*) 'mdl_MT = ', MDL_MT
@@ -461,9 +457,17 @@ ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
       WRITE(*,*) 'mdl_WW = ', MDL_WW
       WRITE(*,*) 'mdl_WT = ', MDL_WT
       WRITE(*,*) 'mdl_WH = ', MDL_WH
+      WRITE(*,*) 'mdl_MW = ', MDL_MW
       WRITE(*,*)  ' Internal Params'
       WRITE(*,*)  ' ---------------------------------'
       WRITE(*,*)  ' '
+      WRITE(*,*) 'mdl_ymtau = ', MDL_YMTAU
+      WRITE(*,*) 'mdl_ymb = ', MDL_YMB
+      WRITE(*,*) 'CMASS_mdl_MH = ', CMASS_MDL_MH
+      WRITE(*,*) 'CMASS_mdl_MT = ', CMASS_MDL_MT
+      WRITE(*,*) 'mdl_ymt = ', MDL_YMT
+      WRITE(*,*) 'CMASS_mdl_MW = ', CMASS_MDL_MW
+      WRITE(*,*) 'CMASS_mdl_MZ = ', CMASS_MDL_MZ
       WRITE(*,*) 'mdl_sqrt__2 = ', MDL_SQRT__2
       WRITE(*,*) 'mdl_sq2 = ', MDL_SQ2
       WRITE(*,*) 'mdl_cQQplus = ', MDL_CQQPLUS
@@ -473,7 +477,7 @@ ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
       WRITE(*,*) 'mdl_complexi = ', MDL_COMPLEXI
       WRITE(*,*) 'mdl_Lambda__exp__2 = ', MDL_LAMBDA__EXP__2
       WRITE(*,*) 'mdl_aEW = ', MDL_AEW
-      WRITE(*,*) 'mdl_MW = ', MDL_MW
+      WRITE(*,*) 'Gf = ', GF
       WRITE(*,*) 'mdl_sqrt__aEW = ', MDL_SQRT__AEW
       WRITE(*,*) 'mdl_ee = ', MDL_EE
       WRITE(*,*) 'mdl_MW__exp__2 = ', MDL_MW__EXP__2

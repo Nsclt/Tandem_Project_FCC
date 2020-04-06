@@ -581,3 +581,6 @@ Center of mass energy 173.5
 coefficient 1 ctZ
 coefficient 2 ctW
 Center of mass energy 174
+coefficient 1 ctZ
+coefficient 2 ctW
+Center of mass energy 174.5

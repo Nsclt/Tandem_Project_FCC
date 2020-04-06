@@ -32,3 +32,9 @@ ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
      $  GC_599, GC_600, GC_698, GC_699, GC_815, GC_825, GC_315, GC_316
      $ , GC_317, GC_318, GC_319, GC_321, GC_516, GC_522, GC_536, GC_543
 
+      DOUBLE COMPLEX CMASS_MDL_MH, CMASS_MDL_MZ, CMASS_MDL_MT,
+     $  CMASS_MDL_MW
+
+      COMMON/COMPLEX_MASS/ CMASS_MDL_MH, CMASS_MDL_MZ, CMASS_MDL_MT,
+     $  CMASS_MDL_MW
+

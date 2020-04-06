@@ -351,13 +351,13 @@ C     Amplitude(s) for diagram number 1
       CALL FFFF12_15_2_21_22_23_7_8_24_110_0(W(1,2),W(1,1),W(1,4),W(1
      $ ,3),GC_315,GC_516,GC_321,GC_543,GC_536,GC_317,GC_522,GC_319
      $ ,GC_316,GC_318,AMP(1))
-      CALL FFV1P0_3(W(1,2),W(1,1),GC_3,ZERO, FK_ZERO,W(1,5))
+      CALL FFV1P0_3(W(1,2),W(1,1),GC_3,DCMPLX(ZERO),W(1,5))
 C     Amplitude(s) for diagram number 2
       CALL FFV10_12_0(W(1,4),W(1,3),W(1,5),GC_699,GC_698,AMP(2))
 C     Amplitude(s) for diagram number 3
       CALL FFV7_0(W(1,4),W(1,3),W(1,5),GC_2,AMP(3))
-      CALL FFV2_8_3(W(1,2),W(1,1),GC_574,GC_581,MDL_MZ, FK_MDL_WZ,W(1
-     $ ,5))
+      CALL FFV2_8_3(W(1,2),W(1,1),GC_574,GC_581,DCMPLX(CMASS_MDL_MZ)
+     $ ,W(1,5))
 C     Amplitude(s) for diagram number 4
       CALL FFV10_12_0(W(1,4),W(1,3),W(1,5),GC_600,GC_599,AMP(4))
 C     Amplitude(s) for diagram number 5

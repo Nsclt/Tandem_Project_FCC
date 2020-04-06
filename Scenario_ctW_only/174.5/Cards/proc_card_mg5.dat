@@ -35,6 +35,7 @@ define l+ = e+ mu+
 define l- = e- mu-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
+set complex_mass_scheme True
 generate e+ e- > t t~ FCNC=0 dim6<=1
 output/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/Scenario_ctW_onl\
 y/174.5

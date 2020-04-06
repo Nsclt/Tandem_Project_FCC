@@ -12,6 +12,6 @@
  colored_pdgs = [1, 2, 3, 4, 5, 6, 21] 
  pdg_initial2 = [11] 
  has_fsr = False 
- complex_mass_scheme = False 
+ complex_mass_scheme = True 
  max_n_matched_jets = 0 
  loop_induced = False 

@@ -886,15 +886,7 @@ fcnc 344 mdl_cblSIx3x32
 
 sminputs 1 aEWM1
 
-sminputs 2 mdl_Gf
-
 sminputs 3 aS
-
-yukawa 5 mdl_ymb
-
-yukawa 6 mdl_ymt
-
-yukawa 15 mdl_ymtau
 
 mass 23 mdl_MZ
 
@@ -913,3 +905,5 @@ decay 24 mdl_WW
 decay 6 mdl_WT
 
 decay 25 mdl_WH
+
+mass 24 mdl_MW

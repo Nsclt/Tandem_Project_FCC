@@ -71,6 +71,7 @@ define l+ = e+ mu+
 define l- = e- mu-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
+set complex_mass_scheme True
 generate e+ e- > t t~ FCNC=0 dim6<=1
 output/home/nicole/Software/MG5_aMC_v2_6_7/Tandem_FCC/Scenario_ctW_onl\
 y/174.5
@@ -289,7 +290,7 @@ BLOCK DIM6 #
       7 0.000000e+00 # cpb
       8 0.000000e+00 # cptb
       9 0.000000e+00 # cptbi
-      10 1.800000e+00 # ctw
+      10 -2.000000e-01 # ctw
       11 0.000000e+00 # ctz
       12 0.000000e+00 # ctwi
       13 0.000000e+00 # ctzi
@@ -733,6 +734,7 @@ BLOCK MASS #
       6 1.720000e+02 # mt
       15 1.777000e+00 # mta
       23 9.118760e+01 # mz
+      24 8.038500e+01 # mw
       25 1.250000e+02 # mh
       1 0.000000e+00 # d : 0.0
       2 0.000000e+00 # u : 0.0
@@ -745,21 +747,12 @@ BLOCK MASS #
       16 0.000000e+00 # vt : 0.0
       21 0.000000e+00 # g : 0.0
       22 0.000000e+00 # a : 0.0
-      24 7.982436e+01 # w+ : cmath.sqrt(mz__exp__2/2. + cmath.sqrt(mz__exp__4/4. - (aew*cmath.pi*mz__exp__2)/(gf*sqrt__2)))
 ###################################
 ## INFORMATION FOR SMINPUTS
 ###################################
 BLOCK SMINPUTS # 
       1 1.279000e+02 # aewm1
-      2 1.166370e-05 # gf
       3 1.184000e-01 # as
-###################################
-## INFORMATION FOR YUKAWA
-###################################
-BLOCK YUKAWA # 
-      5 4.700000e+00 # ymb
-      6 1.720000e+02 # ymt
-      15 1.777000e+00 # ymtau
 ###################################
 ## INFORMATION FOR DECAY
 ###################################
@@ -783,7 +776,7 @@ DECAY 22 0.000000e+00 # a : 0.0
 </slha>
 <MGGenerationInfo>
 #  Number of Events        :       2000
-#  Integrated weight (pb)  :       2.802358
+#  Integrated weight (pb)  :       0.186842
 </MGGenerationInfo>
 </header>
 </LesHouchesEvents>
