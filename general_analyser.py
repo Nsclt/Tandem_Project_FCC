@@ -8,9 +8,9 @@ import itertools
 
 def main():
 
-    run_W, tag_W, cross_W, error_W, Nb_event_W = np.genfromtxt('Scenario_ctW_only/174.5/cross_sections.txt', unpack=True)
+    run_W, tag_W, cross_W, error_W, Nb_event_W = np.genfromtxt('Scenario_ctW_only/172.5/cross_sections.txt', unpack=True)
 
-    run_Z, tag_Z, cross_Z, error_Z, Nb_event_Z = np.genfromtxt('Scenario_ctZ_only/174.5/cross_sections.txt', unpack=True)
+    run_Z, tag_Z, cross_Z, error_Z, Nb_event_Z = np.genfromtxt('Scenario_ctZ_only/172.5/cross_sections.txt', unpack=True)
 
 
     coefficient_strength_Z = np.arange(-0.5,2.5,0.1)
@@ -271,32 +271,32 @@ def main():
     
     #PLOTTING FOR CTW ONLY
     
-    print('RUN ', run_W[25], 'with Cross section:',  cross_W[25])
+    print('RUN SM W', run_W[25], 'with Cross section:',  cross_W[25])
     
-    t = np.linspace(-3,0.7,1000)
-    plt.plot(coefficient_strength_W, cross_W, 'o', color='deeppink')
-    plt.errorbar(coefficient_strength_W,cross_W, yerr=error_W ,xerr=None, fmt='o', color='deeppink')
-    plt.plot(t, two_dimensional_parabole_ctW(t, v_sm_W, v_ctW, v_ctW_quad), label='Polynomial Fitting Function of Second Degree')
-    plt.hlines(cross_W[25] , -10,10, 'crimson', linestyle='solid', label='SM Value')
-    plt.hlines(cross_W[25] + (cross_W[25] * (factor_349/2)), -10,10, 'pink', linestyle='solid', label='Accuracy')
-    plt.hlines(cross_W[25] - (cross_W[25] * (factor_349/2)) , -10,10, 'pink', linestyle='solid')
-    plt.fill_between(t, (cross_W[25] - (cross_W[25] * (factor_349/2))) ,(cross_W[25] + (cross_W[25] * (factor_349/2))) ,facecolor='pink')
-    plt.grid()
-    plt.xlim(-1.95,0.25)
-    plt.ylim(0,0.5)
-    plt.xlabel('ctW')
-    plt.ylabel('$\sigma$ / pb')
-    plt.legend(loc='best')
-    plt.title('$e^+e^-$-> tt~'  '   '   '$\sqrt{s} = 349$GeV' '   ' 'dim6top_LO_UFO' )
-    plt.savefig('349_ctW_cross_section.pdf')
-    plt.show()
+    #t = np.linspace(-3,0.7,1000)
+    #plt.plot(coefficient_strength_W, cross_W, 'o', color='deeppink')
+    #plt.errorbar(coefficient_strength_W,cross_W, yerr=error_W ,xerr=None, fmt='o', color='deeppink')
+    #plt.plot(t, two_dimensional_parabole_ctW(t, v_sm_W, v_ctW, v_ctW_quad), label='Polynomial Fitting Function of Second Degree')
+    #plt.hlines(cross_W[25] , -10,10, 'crimson', linestyle='solid', label='SM Value')
+    #plt.hlines(cross_W[25] + (cross_W[25] * (factor_349/2)), -10,10, 'pink', linestyle='solid', label='Accuracy')
+    #plt.hlines(cross_W[25] - (cross_W[25] * (factor_349/2)) , -10,10, 'pink', linestyle='solid')
+    #plt.fill_between(t, (cross_W[25] - (cross_W[25] * (factor_349/2))) ,(cross_W[25] + (cross_W[25] * (factor_349/2))) ,facecolor='pink')
+    #plt.grid()
+    #plt.xlim(-1.95,0.25)
+    #plt.ylim(0,0.5)
+    #plt.xlabel('ctW')
+    #plt.ylabel('$\sigma$ / pb')
+    #plt.legend(loc='best')
+    #plt.title('$e^+e^-$-> tt~'  '   '   '$\sqrt{s} = 349$GeV' '   ' 'dim6top_LO_UFO' )
+    #plt.savefig('349_ctW_cross_section.pdf')
+    #plt.show()
 
 
     ################################################################################
 
 
     #PLOTTING FOR CtZ ONLY
-    #print('RUN ', run_Z[5], 'with Cross section:',  cross_Z[5])
+    print('RUN SM Z', run_Z[5], 'with Cross section:',  cross_Z[5])
 #
     #t = np.linspace(-1,3,1000)
     #plt.plot(coefficient_strength_Z, cross_Z, 'o', color='deeppink')
