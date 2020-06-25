@@ -1,0 +1,255 @@
+\section{Appendix}
+
+\textbf{A Information from the Conceptual Design Report}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.5\textwidth]{graphics/Plot_from_Paper.png}
+\caption{Production cross section on the top-quark pair production from the Conceptual Design Report \cite{CDR}. Variations in the top-quark width and mass are displayed as bands around 
+the default parameters. The accuracy on the cross section datapoints for different centre-of-mass energies are denoted as black errorbars. The calculation is performed at NNNLO. Results on 
+the accuracy are scaled to this measurement and used this analysis.}
+\label{fig:paperplot}
+\end{figure}
+
+\begin{table}
+    \centering
+    \caption{Accuracies taken from the FCC Conceptual Design Report \cite{CDR} at centre-of-mass energies from $\SIrange{345}{349}{\giga\electronvolt}$. The values are then applied on the 
+    standard model value recieved from \texttt{MadGraph} \cite{MadGraph} for each measurement to recieve the accuracy band displayed i.e. in Figure \ref{fig:EFT_345}.}
+    \label{tab:uncertainties}
+    \begin{tabular}{S S S} 
+        \toprule 
+        {$\sqrt{s}$/$\left[ \SI{}{\giga\electronvolt} \right]$} & {Accuracy on $\sigma_\text{SM}$} \\
+        \midrule
+        \SI{345}{} & \SI{3.31}{\percent}  \\
+        \SI{346}{} & \SI{2.87}{\percent}  \\
+        \SI{347}{} & \SI{3.86}{\percent}  \\
+        \SI{348}{} & \SI{3.77}{\percent}  \\
+        \SI{349}{} & \SI{3.74}{\percent}  \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+
+
+\textbf{B One Coefficient Analysis for $\sqrt{\text{s}} = \SIrange{346}{349}{\giga\electronvolt}$}
+\begin{table}
+    \centering
+    \caption{Parameters of the fitting function \eqref{eqn:ctW_running} for various $C_\text{tW}$ with $C_\text{tZ}$ being constrained to zero $\left(\text{left} \right)$ as well as 
+    the parameters of the fitting function \eqref{eqn:ctZ_running} for various $C_\text{tZ}$ and $C_\text{tW}$ being constrained to zero $\left(\text{right} \right)$. The fitting is performed 
+    at centre-of-mass energies from $\SIrange{345}{349}{\giga\electronvolt}$. The fitting was performed with \texttt{curve$\_$fit} \cite{curve}.}
+    \label{tab:Coefficients_Single}
+    \resizebox{\textwidth}{!}{\begin{tabular}{S[table-format=3.1] S S S S S S} 
+        \toprule 
+        &  \multicolumn{3}{c}{$C_\text{tW}$ running, $C_\text{tZ} = 0$} & \multicolumn{3}{c}{$C_\text{tZ}$ running, $C_\text{tW} = 0$ } \\ 
+        \cmidrule(lr){2-4}\cmidrule(lr){5-7}
+        {$\sqrt{s}$/$\left[ \SI{}{\giga\electronvolt} \right]$} & {$\sigma_\text{SM}$/$\left[ \SI{}{\pico\barn} \right]$} & {$\sigma_{\text{BSM},1}$/$\left[ \SI{}{\pico\barn} \right]$} &  {$\sigma_{\text{BSM},2}$/$\left[ \SI{}{\pico\barn} \right]$} &  {$\sigma_{\text{SM}}$/$\left[ \SI{}{\pico\barn} \right]$} & {$\sigma_{\text{BSM},1}$/$\left[ \SI{}{\pico\barn} \right]$} & {$\sigma_{\text{BSM},2}$/$\left[ \SI{}{\pico\barn} \right]$} \\
+        \midrule
+        \SI{345}{}   & \SI{0.1368 \pm 0.0004}{} & \SI{0.3074 \pm 0.0007}{} & \SI{0.1802 \pm 0.0003}{} & \SI{0.1372 \pm 0.0002}{} & \SI{-0.2439 \pm 0.0005}{} & \SI{0.1489 \pm 0.0002}{} \\
+        \SI{346}{}   & \SI{0.1977 \pm 0.0005}{} & \SI{0.4392 \pm 0.0010}{} & \SI{0.2570 \pm 0.0004}{} & \SI{0.1983 \pm 0.0003}{} & \SI{-0.3424 \pm 0.0005}{} & \SI{0.2086 \pm 0.0003}{} \\
+        \SI{347}{}   & \SI{0.2399 \pm 0.0007}{} & \SI{0.5335 \pm 0.0145}{} & \SI{0.3128 \pm 0.0007}{} & \SI{0.2407 \pm 0.0003}{} & \SI{-0.4163 \pm 0.0007}{} & \SI{0.2541 \pm 0.0003}{} \\
+        \SI{348}{}   & \SI{0.2754 \pm 0.0009}{} & \SI{0.6124 \pm 0.0017}{} & \SI{0.3593 \pm 0.0008}{} & \SI{0.2754 \pm 0.0004}{} & \SI{-0.4769 \pm 0.0008}{} & \SI{0.2917 \pm 0.0004}{} \\
+        \SI{349}{}   & \SI{0.3051 \pm 0.0008}{} & \SI{0.6794 \pm 0.0017}{} & \SI{0.3996 \pm 0.0008}{} & \SI{0.2961 \pm 0.0005}{} & \SI{-0.5285 \pm 0.0011}{} & \SI{0.3249 \pm 0.0005}{} \\
+        \bottomrule
+    \end{tabular}}
+\end{table}
+
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/346_ctW_cross_section.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/346_ctZ_cross_section.pdf}
+\end{subfigure}
+\caption{Cross section as a function of the coefficient strength $C_\text{tW}$ $\left(\text{left} \right)$ or $C_\text{tZ}$ $\left(\text{right} \right)$ for a centre-of-mass energy of 
+$\SI{346}{\giga\electronvolt}$. The accuracy on the standard model 
+value is taken from Table \ref{tab:uncertainties}. The fitting is performed with \texttt{curve$\_$fit}.}
+\label{fig:346_cross}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/347_ctW_cross_section.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/347_ctZ_cross_section.pdf}
+\end{subfigure}
+\caption{Cross section as a function of the coefficient strength $C_\text{tW}$ $\left(\text{left} \right)$ or $C_\text{tZ}$ $\left(\text{right} \right)$ for a centre-of-mass energy of 
+$\SI{347}{\giga\electronvolt}$. The accuracy on the standard model 
+value is taken from Table \ref{tab:uncertainties}. The fitting is performed with \texttt{curve$\_$fit}.}
+\label{fig:347_cross}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/348_ctW_cross_section.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/348_ctZ_cross_section.pdf}
+\end{subfigure}
+\caption{Cross section as a function of the coefficient strength $C_\text{tW}$ $\left(\text{left} \right)$ or $C_\text{tZ}$ $\left(\text{right} \right)$ for a centre-of-mass energy of 
+$\SI{348}{\giga\electronvolt}$. The accuracy on the standard model 
+value is taken from Table \ref{tab:uncertainties}. The fitting is performed with \texttt{curve$\_$fit}.}
+\label{fig:348_cross}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/349_ctW_cross_section.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/349_ctZ_cross_section.pdf}
+\end{subfigure}
+\caption{Cross section as a function of the coefficient strength $C_\text{tW}$ $\left(\text{left} \right)$ or $C_\text{tZ}$ $\left(\text{right} \right)$ for a centre-of-mass energy of 
+$\SI{349}{\giga\electronvolt}$. The accuracy on the standard model 
+value is taken from Table \ref{tab:uncertainties}. The fitting is performed with \texttt{curve$\_$fit}.}
+\label{fig:349_cross}
+\end{figure}
+
+
+
+
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/346_ctW_only_final.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/346_ctZ_only_final.pdf}
+\end{subfigure}
+\caption{\texttt{EFTfitter} \cite{EFTFitter} results for $C_\text{tW}$ $\left(\text{left} \right)$ or $C_\text{tZ}$ $\left(\text{right} \right)$ for a centre-of-mass energy of 
+$\SI{346}{\giga\electronvolt}$. The posterior function as a funtion of the coefficient strength is displayed on the vertical axis and the coefficient strength itself is 
+displayed on the horizontal axis. The standard deviation of the marginalised posterior is displayed in a color scheme.}
+\label{fig:346_eft}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/347_ctW_only_final.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/347_ctZ_only_final.pdf}
+\end{subfigure}
+\caption{\texttt{EFTfitter} \cite{EFTFitter} results for $C_\text{tW}$ $\left(\text{left} \right)$ or $C_\text{tZ}$ $\left(\text{right} \right)$ for a centre-of-mass energy of 
+$\SI{347}{\giga\electronvolt}$. The posterior function as a funtion of the coefficient strength is displayed on the vertical axis and the coefficient strength itself is 
+displayed on the horizontal axis. The standard deviation of the marginalised posterior is displayed in a color scheme.}
+\label{fig:347_eft}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/348_ctW_only_final.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/348_ctZ_only_final.pdf}
+\end{subfigure}
+\caption{\texttt{EFTfitter} \cite{EFTFitter} results for $C_\text{tW}$ $\left(\text{left} \right)$ or $C_\text{tZ}$ $\left(\text{right} \right)$ for a centre-of-mass energy of 
+$\SI{348}{\giga\electronvolt}$. The posterior function as a funtion of the coefficient strength is displayed on the vertical axis and the coefficient strength itself is 
+displayed on the horizontal axis. The standard deviation of the marginalised posterior is displayed in a color scheme.}
+\label{fig:348_eft}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/349_ctW_only_final.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/349_ctZ_only_final.pdf}
+\end{subfigure}
+\caption{\texttt{EFTfitter} \cite{EFTFitter} results for $C_\text{tW}$ $\left(\text{left} \right)$ or $C_\text{tZ}$ $\left(\text{right} \right)$ for a centre-of-mass energy of 
+$\SI{349}{\giga\electronvolt}$. The posterior function as a funtion of the coefficient strength is displayed on the vertical axis and the coefficient strength itself is 
+displayed on the horizontal axis. The standard deviation of the marginalised posterior is displayed in a color scheme.}
+\label{fig:349_eft}
+\end{figure}
+
+
+
+
+
+
+\textbf{C Two Coefficient Analysis for $\sqrt{\text{s}} = \SIrange{346}{349}{\giga\electronvolt}$}
+
+\begin{table}
+    \centering
+    \caption{Parameters of the fitting function \eqref{eqn:interference} for $C_\text{tW}$ and $C_\text{tZ}$ running, filling up the whole parameter space. The fitting is performed 
+    at centre-of-mass energies from $\SIrange{345}{349}{\giga\electronvolt}$. The fitting was performed with \texttt{curve$\_$fit} \cite{curve}.}
+    \label{tab:Coefficients_Interference}
+    \resizebox{\textwidth}{!}{\begin{tabular}{S S S S S S S} 
+        \toprule 
+        {$\sqrt{s}$/$\left[ \SI{}{\giga\electronvolt} \right]$} & {$\sigma_\text{SM}$/$\left[ \SI{}{\pico\barn} \right]$} & {$\sigma_1$/$\left[ \SI{}{\pico\barn} \right]$} & {$\sigma_2$/$\left[ \SI{}{\pico\barn} \right]$} &  {$\sigma_{3}$/$\left[ \SI{}{\pico\barn} \right]$} &  {$\sigma_{4}$/$\left[ \SI{}{\pico\barn} \right]$} & {$\sigma_{5}$/$\left[ \SI{}{\pico\barn} \right]$} \\
+        \midrule
+        \SI{345}{}   & \SI{0.1382 \pm 0.0020}{} & \SI{0.3065 \pm 0.0005}{} & \SI{-0.2424 \pm 0.0005}{} & \SI{-0.3064 \pm 0.0002}{} & \SI{0.1477 \pm 0.0002}{} & \SI{0.1793 \pm 0.0002}{} \\
+        \SI{346}{}   & \SI{0.1993 \pm 0.0027}{} & \SI{0.4382 \pm 0.0007}{} & \SI{-0.3412 \pm 0.0007}{} & \SI{-0.4337 \pm 0.0003}{} & \SI{0.2075 \pm 0.0003}{} & \SI{0.2557 \pm 0.0003}{} \\
+        \SI{347}{}   & \SI{0.2417 \pm 0.0034}{} & \SI{0.5325 \pm 0.0008}{} & \SI{-0.4144 \pm 0.0008}{} & \SI{-0.5279 \pm 0.0003}{} & \SI{0.2527 \pm 0.0004}{} & \SI{0.3113 \pm 0.0004}{} \\
+        \SI{348}{}   & \SI{0.2755 \pm 0.0040}{} & \SI{0.6107 \pm 0.0010}{} & \SI{-0.4748 \pm 0.0004}{} & \SI{-0.6061 \pm 0.0004}{} & \SI{0.2904 \pm 0.0004}{} & \SI{0.3572 \pm 0.0004}{} \\
+        \SI{349}{}   & \SI{0.2980 \pm 0.0050}{} & \SI{0.6643 \pm 0.0012}{} & \SI{-0.5261 \pm 0.0012}{} & \SI{-0.6691 \pm 0.0005}{} & \SI{0.3229 \pm 0.0006}{} & \SI{0.3911 \pm 0.0006}{} \\
+        \bottomrule
+    \end{tabular}}
+\end{table}
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=\textwidth]{graphics/346_interference_final.pdf}
+\caption{\texttt{EFTfitter} \cite{EFTFitter} results for the parameter space of both $C_\text{tW}$ and $C_\text{tZ}$ varying at a centre-of-mass energy of $\SI{346}{\giga\electronvolt}$. The upper left diagram displays the posterior function 
+of $C_\text{tZ}$ as a function of $C_\text{tZ}$ with the standard deviation of the marginalised posterior. The lower right corner displays the same for $C_\text{tW}$. The upper right diagram 
+shows a heat map of the posterior function in the phase space of the coeffient strengths. The lower right diagram displays the same but uses 
+the smallest intervalls as a display option.}
+\label{fig:346_int_eft}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=\textwidth]{graphics/347_interference_final.pdf}
+\caption{\texttt{EFTfitter} \cite{EFTFitter} results for the parameter space of both $C_\text{tW}$ and $C_\text{tZ}$ varying at a centre-of-mass energy of $\SI{347}{\giga\electronvolt}$. The upper left diagram displays the posterior function 
+of $C_\text{tZ}$ as a function of $C_\text{tZ}$ with the standard deviation of the marginalised posterior. The lower right corner displays the same for $C_\text{tW}$. The upper right diagram 
+shows a heat map of the posterior function in the phase space of the coeffient strengths. The lower right diagram displays the same but uses 
+the smallest intervalls as a display option.}
+\label{fig:347_int_eft}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=\textwidth]{graphics/348_interference_final.pdf}
+\caption{\texttt{EFTfitter} \cite{EFTFitter} results for the parameter space of both $C_\text{tW}$ and $C_\text{tZ}$ varying at a centre-of-mass energy of $\SI{348}{\giga\electronvolt}$. The upper left diagram displays the posterior function 
+of $C_\text{tZ}$ as a function of $C_\text{tZ}$ with the standard deviation of the marginalised posterior. The lower right corner displays the same for $C_\text{tW}$. The upper right diagram 
+shows a heat map of the posterior function in the phase space of the coeffient strengths. The lower right diagram displays the same but uses 
+the smallest intervalls as a display option.}
+\label{fig:348_int_eft}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=\textwidth]{graphics/349_interference_final.pdf}
+\caption{\texttt{EFTfitter} \cite{EFTFitter} results for the parameter space of both $C_\text{tW}$ and $C_\text{tZ}$ varying at a centre-of-mass energy of $\SI{349}{\giga\electronvolt}$. The upper left diagram displays the posterior function 
+of $C_\text{tZ}$ as a function of $C_\text{tZ}$ with the standard deviation of the marginalised posterior. The lower right corner displays the same for $C_\text{tW}$. The upper right diagram 
+shows a heat map of the posterior function in the phase space of the coeffient strengths. The lower right diagram displays the same but uses 
+the smallest intervalls as a display option.}
+\label{fig:349_int_eft}
+\end{figure}

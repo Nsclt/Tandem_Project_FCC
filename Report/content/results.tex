@@ -1,0 +1,160 @@
+\section{Results}
+The results are organized as follows. First, a study on the cross section as a function of the centre-of-mass energy is presented using two different 
+\texttt{MadGraph} models. This study gives important validation to the results in 
+the coefficient studies. Then, the analysis with one coefficient fixed to zero while the other varies is discussed. \texttt{MadGraph} results are displayed and then interpreted with 
+the \texttt{EFTfitter}. The study is then repeated for both coefficients filling the whole parameter space. The report presents the findings explicitly for a centre-of-mass energy 
+of $\SI{345}{\giga\electronvolt}$. Results for centre-of-mass energies from $\SIrange{346}{349}{\giga\electronvolt}$ are presented in the appendix. A combined result for all measurement 
+is presented.
+
+\subsection{Cross Section Study}
+\label{subsec:cross}
+The behavior of the cross section as a function of the centre-of-mass energy is analysed with the \texttt{MadGraph} models \texttt{sm}, representing the standard model implementation, and 
+the \texttt{dim$6$top$\_$LO$\_$UFO}, representing beyond-the-standard-model physics implementations. Default parameters from \texttt{MadGraph} for the 
+top-quark width $\text{w}_\text{t} = \SI{1.51}{\giga\electronvolt}$ and the top-quark mass $m_\text{t} = \SI{172.0}{\giga\electronvolt}$ are used. The 
+results are displayed in Figure \ref{fig:cross_section}.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/ctZ_0_CMS_cross_section_defaults.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/ctZ_1_CMS_cross_section_defaults.pdf}
+\end{subfigure}
+\caption{Cross section as a function of the centre-of-mass energy. The left diagram displays the behavior of the cross section in the \texttt{sm} $\left(\text{standard model} \right)$ 
+implementation in \texttt{MadGraph} whereas the right diagram displays the \texttt{dim$6$top$\_$LO$\_$UFO} model implementation.}
+\label{fig:cross_section}
+\end{figure}
+
+Compared to the results from the Conceptual Design Report, which are displayed in Figure \ref{fig:paperplot}, a different behavior of the cross section is found. The \texttt{MadGraph}
+model \texttt{sm} does not show a resonant behaviour at a centre-of-mass energie double the top-quark mass as was expected. For higher centre-of-mass energies, 
+the cross section rises significantely in contrast to the NNNLO calculations from the Conceptual Design Report \cite{CDR}. In the \texttt{dim$6$top$\_$LO$\_$UFO} model, centre-of-mass energies 
+lower than two times the top-quark mass were not archievable due to the low phase space. Therefore, no resonance can be found. The increase in the 
+cross section for higher centre-of-mass energies differs from the NNNLO expectations. 
+
+\subsection{One Coefficient Analysis}
+\label{subsec:one}
+The study on one coefficient is performed by setting the other relevant coefficient $\left(\text{here namely}: C_\text{tZ} \,\text{or}\, C_\text{tw} \right)$ to zero. Figure \ref{fig:345_fit} shows 
+the behavior of the cross section as a function of the coefficient strength. The simulated data from \texttt{MadGraph} is fitted with the polynomial functions \eqref{eqn:ctW_running} or 
+\eqref{eqn:ctZ_running}. The fitting parameters for the different centre-of-mass energies are displayed in Table \ref{tab:Coefficients_Single}. The accuracy on the standard model value 
+is taken from the Conceptual Design Report \cite{CDR} and scaled to the value of the simulation. The assumed accuracies are displayed in Table \ref{tab:uncertainties}.
+
+\begin{align}
+\sigma \left(C_\text{tW} \right) = \sigma_\text{SM} + \sigma_{\text{BSM},1} C_\text{tW} + \sigma_{\text{BSM},2} C_\text{tW}^2
+\label{eqn:ctW_running}
+\end{align}
+
+\begin{align}
+\sigma \left(C_\text{tZ} \right) = \sigma_\text{SM} + \sigma_{\text{BSM},1} C_\text{tZ} + \sigma_{\text{BSM},2} C_\text{tZ}^2
+\label{eqn:ctZ_running}
+\end{align}
+
+
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/345_ctW_cross_section.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/345_ctZ_cross_section.pdf}
+\end{subfigure}
+\caption{Cross section as a function of the coefficient strength $C_\text{tW}$ $\left(\text{left} \right)$ or $C_\text{tZ}$ $\left(\text{right} \right)$ for a centre-of-mass energy of 
+$\SI{345}{\giga\electronvolt}$. The accuracy on the standard model 
+value is taken from Table \ref{tab:uncertainties}. The fitting is performed with \texttt{curve$\_$fit}.}
+\label{fig:345_fit}
+\end{figure}
+
+The functions \eqref{eqn:ctW_running} and \eqref{eqn:ctZ_running} with the corresponding parameters from \texttt{curve$\_$fit} are then given to the \texttt{EFTfitter} as input parameters. 
+The standard model value returned from \texttt{MadGraph} along with the accuracy from the Conceptual Design Report from Table \ref{tab:uncertainties} are also implemented. A uniformal 
+function is assumed as the prior, distributing equal amounts of probability to all coefficient strength possible in the area from $-10$ to $10$. Figure \ref{fig:EFT_345} displayes 
+the output from the \texttt{EFTfitter}. 
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/345_ctW_only_final.pdf}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{graphics/345_ctZ_only_final.pdf}
+\end{subfigure}
+\caption{\texttt{EFTfitter} \cite{EFTFitter} results for $C_\text{tW}$ $\left(\text{left} \right)$ or $C_\text{tZ}$ $\left(\text{right} \right)$ for a centre-of-mass energy of 
+$\SI{345}{\giga\electronvolt}$. The posterior function as a funtion of the coefficient strength is displayed on the vertical axis and the coefficient strength itself is 
+displayed on the horizontal axis. The standard deviation of the marginalised posterior is displayed in a color scheme.}
+\label{fig:EFT_345}
+\end{figure}
+
+The peaks of the posterior functions are located, where the standard model assumption 
+crosses the fitting function in Figure \ref{fig:345_fit}. It can be seen, that the areas of the smallest intervals 
+are very narrow, as assumed due to the high precision and accuracy of the FCC.
+
+
+
+
+
+\subsection{Two Coefficient Analysis}
+\label{subsec:two}
+In this section, both $C_\text{tW}$ and $C_\text{tZ}$ are varied over every possible iteration of coefficient strengths from $-4$ to $4$ in 
+$0.5$ steps. The data from \texttt{MadGraph} is fitted with equation \eqref{eqn:interference}. The values of the 
+fitting parameters are displayed in Table \ref{tab:Coefficients_Interference}. 
+
+\begin{align}
+\sigma \left(C_\text{tZ}, C_\text{tW} \right) = \sigma_\text{SM} + \sigma_1 C_\text{tZ} + \sigma_2 C_\text{tW} + \sigma_3 C_\text{tW} C_\text{tZ} + \sigma_4 C_\text{tW}^2 + \sigma_5 C_\text{tZ}^2
+\label{eqn:interference}
+\end{align}
+
+Figure \ref{fig:345_interference} displays the \texttt{EFTfitter} output for a centre-of-mass energy of $\SI{345}{\giga\electronvolt}$. The diagrams on the main diagonal display the same analysis as 
+the figures from the one coefficient analysis, with the difference, that interference from the other coefficient is taken into account. Therefore, the posterior function of the coefficient strength 
+also distributes in the area between the two main peaks. The diagrams on the secondary diagonal differ in the display option. The lower left diagram combines the results from 
+the posterior function as a function of the coefficient strength from the main diagonal. The coefficient strength 
+are displayed on the horizontal and vertical axis with the posterior function as the third axis or in this case the 
+display option. In the phase space of the coefficient the probability of the coefficient stregth is marked as a color scheme according 
+to the interval. The upper right diagram choses a heat map as the form of display option. Aras not colored can be excluded, with no probability 
+distributed to them.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=\textwidth]{graphics/345_interference_final.pdf}
+\caption{\texttt{EFTfitter} \cite{EFTFitter} results for the parameter space of both $C_\text{tW}$ and $C_\text{tZ}$ varying at a centre-of-mass energy of $\SI{345}{\giga\electronvolt}$. The upper left diagram displays the posterior function 
+of $C_\text{tZ}$ as a function of $C_\text{tZ}$ with the standard deviation of the marginalised posterior. The lower right corner displays the same for $C_\text{tW}$. The upper right diagram 
+shows a heat map of the posterior function in the phase space of the coeffient strengths. The lower right diagram displays the same but uses 
+the smallest intervalls as a display option.}
+\label{fig:345_interference}
+\end{figure}
+
+
+
+\subsubsection{Combined Results}
+\label{subsubsec:combined}
+The one and two coefficient analysis are performed for the centre-of-mass energies from $\SIrange{346}{349}{\giga\electronvolt}$. The parameters of the fitting functions from each measurement 
+are given to the \texttt{EFTfitter} with their standard model values and accuracies. A combined analysis is performed and the output is displayed in Figure \ref{fig:combined}. It can be seen, 
+that the shape of the ring loses intensity in the lower shoulder. The $\SI{68.61}{\percent}$ interval becomes smaller in 
+the regions outside of the standard model value compared to the single measurement from Figure \ref{fig:345_interference}.
+Figure \ref{fig:contour} displays the contribution each measurement has on the final ring shape displayed in the lower left diagram of Figure \ref{fig:combined}. The fully coloured area 
+corresponds to the smallest $\SI{68.610}{\percent}$ interval that remains after each measurement narrows down the probability.
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=\textwidth]{graphics/Combined_results_final.pdf}
+\caption{\texttt{EFTfitter} \cite{EFTFitter} results for the combination of the measurements from $\SIrange{345}{349}{\giga\electronvolt}$. In comparison to 
+Figure \ref{fig:345_interference} it can be seen, that the area of the smallest $\SI{68.610}{\percent}$ intervals narrows around the 
+standard model value. The ring shape of the posterior function in the phase space of the parameters loses intensity 
+in lower regions.}
+\label{fig:combined}
+\end{figure} 
+
+
+\begin{figure}[H]
+\centering
+  \includegraphics[width=0.5\textwidth]{graphics/Contours_final.pdf}
+\caption{Contour Plot performed with the \texttt{EFTfitter} \cite{EFTFitter}. The contribution of each measurement from 
+various centre-of-mass energies from $\SIrange{345}{349}{\giga\electronvolt}$ are displayed in different colours. The smallest smallest $\SI{68.610}{\percent}$ interval
+that cannot be excluded in either measurement is displayed as the filled area.}
+\label{fig:contour}
+\end{figure} 

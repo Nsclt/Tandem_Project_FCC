@@ -190,9 +190,6 @@ run_137 tag_1 0.1364834 0.00113759241014 2000
 
 
 
-
-
-
 346 GeV:
 
 run_137 tag_1 0.19639 0.00162859041505 2000
@@ -214,4 +211,79 @@ run_137 tag_1 0.273931 0.0023539720561 2000
 349 GeV:
 
 run_137 tag_1 0.293804 0.00181816942118 2000
+
+
+
+
+Accuracy on the SM value:
+
+RUN SM W nan with Cross section: 0.1359318
+ACCURACY ctW 345 0.13818067169117645
+RUN SM Z nan with Cross section: 0.1368778
+ACCURACY ctZ 345 0.1346132775735294
+
+
+
+RUN SM W nan with Cross section: 0.196971
+ACCURACY ctW 346 0.19979293409742122
+RUN SM Z nan with Cross section: 0.196706
+ACCURACY ctZ 346 0.19388786246418338
+
+
+
+RUN SM W nan with Cross section: 0.237096
+ACCURACY ctW 347 0.24167314285714286
+RUN SM Z nan with Cross section: 0.239133
+ACCURACY ctZ 347 0.23451653281853282
+
+
+
+RUN SM W nan with Cross section: 0.27055
+ACCURACY ctW 348 0.2756547169811321
+RUN SM Z nan with Cross section: 0.272932
+ACCURACY ctZ 348 0.26778233962264153
+
+
+
+RUN SM W nan with Cross section: 0.301193
+ACCURACY ctW 349 0.3068227757009346
+RUN SM Z nan with Cross section: 0.29295
+ACCURACY ctZ 349 0.28747429906542055
+
+
+
+
+#Uncertainty calculation 
+#345GEV:
+sigma_345 = 0.544
+sigma_err_345 = 0.018
+factor_345 = sigma_err_345/sigma_345
+
+
+#346GEV:
+sigma_346 = 0.5235
+sigma_err_346 = 0.015
+factor_346 = sigma_err_346/sigma_346
+
+
+
+#347GEV:
+sigma_347 = 0.518
+sigma_err_347 = 0.02
+factor_347 = sigma_err_347/sigma_347
+
+
+
+#348GEV:
+sigma_348 = 0.53
+sigma_err_348 = 0.02
+factor_348 = sigma_err_348/sigma_348
+
+
+
+#349GEV:
+sigma_349 = 0.535
+sigma_err_349 = 0.02
+factor_349 = sigma_err_349/sigma_349
+
 
